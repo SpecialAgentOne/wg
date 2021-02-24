@@ -5,6 +5,8 @@
 #title-section {
     font-family: 'EB Garamond', serif;
     color: black;
+    font-size: 36px;
+    margin: 0px 0px 12px 0px;
 }
 
 #desc-block {
@@ -33,6 +35,10 @@
     color: black;
 }
 
+.blank-row {
+    padding: 17px 0px 5px 0px;
+}
+
 .row__service {
     color: black;
     font-weight: 500;
@@ -57,4 +63,35 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.service-time-money {
+    font-family: 'Roboto', sans-serif;
+}
+
+.service {
+    color: black;
+    font-weight: 200;
+    margin: 0px 0px 0px 0px;
+}
+
+.time {
+    color: #9c48aaff;
+    font-weight: 200;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.money {
+    color: #66cbeeff;
+    font-weight: 200;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.bordered {
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid darkgray;
+    border-bottom: none;
 }
