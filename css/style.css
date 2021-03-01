@@ -1,5 +1,7 @@
 body {
     max-width: 960px;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 table {
@@ -15,13 +17,13 @@ tr {
 #main-title {
     font-family: 'EB Garamond', serif;
     color: black;
-    font-size: 36px;
+    font-size: 42px;
     padding: 20px 0px 0px 15px;
 }
 
 .time {
     color: #9c48aaff;
-    font-weight: 300;
+    font-weight: 500;
     text-align: center;
     padding-top: 1px;
     padding-bottom: 1px;
@@ -29,7 +31,7 @@ tr {
 
 .money {
     color: #66cbeeff;
-    font-weight: 300;
+    font-weight: 500;
     text-align: center;
     padding-top: 1px;
     padding-bottom: 1px;
@@ -41,9 +43,35 @@ tr {
     background-color: black;
 }
 
+.menu-bar {
+  padding: 20px;
+  font-size: 20px !important;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.menu-bar:hover {
+  padding: 20px;
+  font-size: 20px !important;
+  border: 1px solid darkgray;
+  border-radius: 20px;
+}
+
+.menu-bar img {
+  filter: invert(76%) sepia(11%) saturate(2129%) hue-rotate(161deg) brightness(97%) contrast(93%);
+}
+
+.menu-bar:hover img {
+  filter: invert(33%) sepia(78%) saturate(802%) hue-rotate(253deg) brightness(89%) contrast(85%);
+}
+
+.no-line {
+  text-decoration: none;
+}
+
 #gender {
     font-family: 'EB Garamond', serif;
-    font-size: 20px;
+    font-size: 24px;
     color: white;
     background-color: black;
     text-align: left;
@@ -60,7 +88,7 @@ img {
 
 .row__service {
     color: black;
-    font-weight: 500;
+    font-weight: 700;
     padding-top: 20px;
     padding-bottom: 5px;
     padding-left: 20px;
@@ -68,10 +96,18 @@ img {
 
 .service {
     color: black;
-    font-weight: 300;
+    font-weight: 400;
     padding-top: 1px;
     padding-bottom: 1px;
     padding-left: 20px;
+}
+
+.menu-main-title {
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  color: black;
+  font-size: 42px;
+  padding: 20px 0px 0px 15px;
 }
 
 .service-time-money {
@@ -81,7 +117,7 @@ img {
 .sign {
     font-family: 'Roboto', sans-serif;;
     color: white;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 12px;
     text-align: center;
     margin: 20px 10px 0px 10px;
@@ -96,7 +132,7 @@ img {
 /* 
 - make mobile switch sticky
 */
-  {
+* {
     box-sizing:border-box;
     padding:0;
     margin:0;
